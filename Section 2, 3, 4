@@ -1,0 +1,97 @@
+//Section 2
+
+/*
+Exercise 1
+Create 2 buttons next to each other, one with the label "Up" and another with the label "Down".
+*/
+<button>Up</button>
+<button>Down</button>
+
+/*
+Exercise 2
+Load Javascript from within the HTML and console.log your name.
+*/
+<script>
+  console.log('Simon');
+</script>
+
+//Section 3
+/*
+Exercise 1
+Change the value of the todo1 variable to a number (e.g. 99) and run typeof todo1. What is the type?
+*/
+<script>
+  let todo1 = '99';
+</script>
+console.log(typeof todo1);    // Result is: "number"
+
+/*
+Exercise 2
+Create 3 variables: month, dayOfMonth, year. Use these variables to console.log today's date in one line in this format: "November 9, 2021"
+*/
+<script>
+  let month = 'November';
+  let dayOfMonth = '9';
+  let year = '2021';
+</script>
+console.log(month + ' ' + dayOfMonth + ', ' + year); //result is:"July 23, 2022"
+
+/*
+Exercise 3
+Save the result of 4 + 5 * 3 in a variable and console.log the result. 
+Do the same with the result of (4 + 5) * 3. Notice the rules of math are the same in programming (brackets first, then multiply, then add).
+*/
+<script>
+  let result1 = 4 + 5 * 3;
+  let result2 = (4 + 5) * 3;
+</script>
+console.log(result1);   // Result is: 19
+console.log(result2);   // Result is: 27
+
+/*
+Exercise 4
+Create a variable age that saves your age (e.g. let age = 25;). 
+Create another variable: let message = 'I am ' + age + ' years old'; 
+What is the type of the message variable?
+*/
+<script>
+  let age = 25;
+  let message = 'I am ' + age + ' years old';
+</script>
+console.log(typeof message);    // Result is: "string".
+                                // Combining a string and a number results in a string.
+
+//Section 4
+/*
+Exercise 1
+Change the title that shows up in the tab to "Your_Name's Todo App" (use your name).
+*/
+<html>
+  <head>
+    <title>Simon's Todo App</title>
+  </head>
+  ...
+  
+/*
+Exercise 2
+Add your name to the top of the webpage using a div.
+*/
+<body>
+  <div>Simon</div>
+  <button>Press me</button>
+  ...
+
+
+/*
+Exercise 3
+Reverse the todo list by re-arranging the divs in the HTML. Notice that elements are rendered from top to bottom. 
+Reverse the list back after to follow along with the rest of the tutorial.
+*/
+...
+<body>
+  <button>Press me</button>
+  <div>Make dinner</div>
+  <div>Wash car</div>
+  <div>Get groceries</div>
+  ...
+  
